@@ -11,7 +11,7 @@ using namespace std;
 int main()
 {
 	int max, min, a;
-	double mean;
+	//double mean;
 
 	unsigned int N;
 	cout << "please input the size of the array" << endl;
@@ -39,8 +39,8 @@ int main()
 			else min = min;
 
 		}
-		mean = (double)Sum / N;
-		cout << mean << "\t" << min << "\t" << max << endl;
+		//mean = (double)Sum / N;
+		cout << sum << "\t" << min << "\t" << max << endl;
 	}
 	else cout << "please input N <= 100" << endl;
 
